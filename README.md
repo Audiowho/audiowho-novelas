@@ -15,7 +15,7 @@ material de Doctor Who, pero sobre todo nos centramos en el Universo Expandido
 de Doctor Who y sus spin-offs. Cualquiera puede unirse al grupo y colaborar de
 muchas formas. Tenemos un [grupo en Trello](http://trello.com/audiowho).
 
-## ¿Qué hacemos?*
+## ¿Qué hacemos?
 
 Todo lo que traducimos en audiowho está destinado al público whovian. Hecho por
 y para fans. No vendemos ningún tipo de material y no tenemos ánimo de lucro
@@ -30,5 +30,5 @@ posibilidades:
 - A través de nuestra cuenta [@audiowho](https://twitter.com/AudioWho) de Twitter.
 - A través de nuestra [página de Google+](https://plus.google.com/+Audiowho/).
 - Por correo a [audiowho@audiowho.com](mailto://audiowho@audiowho.com).
-- 
+
 Responderemos lo antes posible.
