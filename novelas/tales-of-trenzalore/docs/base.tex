@@ -1,0 +1,60 @@
+\documentclass[10pt,twoside,openright,a5paper]{book}
+
+\usepackage[a5paper]{geometry}
+
+\usepackage{times}
+%\usepackage[Lenny]{fncychap}
+%\usepackage[Conny]{fncychap}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{pdfpages}
+
+
+
+\title{Tales of Trenzalore}
+\author{}
+\date{}
+
+\begin{document}
+
+\pagestyle{plain}
+
+\begin{titlepage}
+\includepdf{images/cover.pdf}
+\end{titlepage}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\input{docs/hist00.tex}
+
+\part*{Let it Snow \\ \vspace{2 mm} {\large Justin Richards}}
+\addcontentsline{toc}{part}{Let it Snow}
+\input{docs/hist01.tex}
+
+\part*{An Apple a Day... \\ \vspace{2 mm} {\large George mann}}
+\addcontentsline{toc}{part}{An Apple a Day}
+\input{docs/hist02.tex}
+
+\part*{Strangers in the Outland \\ \vspace{2 mm} {\large Paul Finch}}
+\addcontentsline{toc}{part}{Strangers in the Outland}
+\input{docs/hist03.tex}
+
+\part*{The Dreaming \\ \vspace{2 mm} {\large Mark Morris}}
+\addcontentsline{toc}{part}{The Dreaming}
+\input{docs/hist04.tex}
+
+\part*{Notas de traducción}
+\addcontentsline{toc}{part}{Notas de traducción}
+\input{docs/notas.tex}
+
+\end{document}
