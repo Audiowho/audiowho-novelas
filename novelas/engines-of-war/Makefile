@@ -17,8 +17,8 @@ pdf: prereq titlepage pre caps post
 
 epub: prereq caps pre post metadata.json images/cover.jpg
 	pandoc docs/base.tex -o build/base.epub
-	ebook-meta build/base.epub -t $(title) --authors $(author) -p $(publisher) --isbn $(isbn) -d $(date)
-	ebook-polish build/base.epub build/$(title).epub -c $(cover) -p --verbose -f -u
+	ebook-convert build/base.epub build/base2.epub --title $(title) --authors $(author) --publisher $(publisher) --isbn $(isbn) -d $(date) --extra-css=style.css --pretty-print --epub-inline-toc --toc-title=$(title)
+	ebook-polish build/base2.epub build/$(title).epub -c $(cover) -p --verbose -f -j -u
 
 caps: $(wildcard docs/caps/*.tex)
 	ls docs/caps/*.tex | awk '{printf "\\input{%s}\n", $$1}' > docs/caps.tex
@@ -64,3 +64,4 @@ clean:
 	-rm docs/titlepage.tex
 	-rm images/cover.pdf
 	-rm build/base.epub
+	-rm build/base2.epub
