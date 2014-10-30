@@ -18,7 +18,7 @@ pdf: prereq titlepage pre caps post
 epub: prereq caps pre post metadata.json images/cover.jpg
 	pandoc docs/base.tex -o build/base.epub
 	ebook-meta build/base.epub -t $(title) --authors $(author) -p $(publisher) --isbn $(isbn) -d $(date)
-	xvfb-run ebook-polish build/base.epub build/$(title).epub -c $(cover) -p --verbose -f -u
+	ebook-polish build/base.epub build/$(title).epub -c $(cover) -p --verbose -f -u
 
 caps: $(wildcard docs/caps/*.tex)
 	ls docs/caps/*.tex | awk '{printf "\\input{%s}\n", $$1}' > docs/caps.tex
