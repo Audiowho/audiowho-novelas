@@ -6,6 +6,48 @@ de las novelas que hemos traducido en Audiowho.
 La traduccón la realizan nuestros traductores y en este repositorio puedes
 encontrar los documentos en LaTeX que usamos para su montaje en ePub y PDF.
 
+## Cómo construir novelas
+
+### Requisitos
+
+En primer lugar para poder generarlas debemos tener instalados los siguiente paquetes:
+
+- imagemagick (Para las portadas)
+- jq (Para parsear ls metadatos)
+- texlive-latex-base (Para generar el PDF)
+- texlive-latex-recommended (Para generar el PDF)
+- texlive-fonts-recommended (Para generar el PDF)
+- texlive-lang-spanish (Para generar el PDF)
+- pandoc (Para genera el ePub)
+- calibre (Para la edición de metadatos del ePub)
+- xvfb (Para que ebook-polish funcione sin servidor X)
+
+Para Ubuntu 14.04 puedes ejecutar el comando:
+
+```
+apt-get install imagemagick jq texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-lang-spanish pandoc calibre xvfb
+```
+
+### Generación de novelas
+
+#### PDF
+
+```
+make pdf
+```
+
+#### ePub
+
+```
+make epub
+```
+
+Puedes generar ambos simplemente con:
+
+```
+make
+```
+
 ---
 
 ## ¿Qué es Audiowho?
