@@ -7,15 +7,18 @@ cover="images/cover.jpg"
 
 all: pdf epub clean
 
-pdf: titlepage pre caps post
+prereq:
+	-mkdir build
+
+pdf: prereq titlepage pre caps post
 	-pdflatex -output-directory=build docs/base.tex
 	-pdflatex -output-directory=build docs/base.tex
 	mv build/base.pdf build/$(title).pdf
 
-epub: caps pre post metadata.json images/cover.jpg
+epub: prereq caps pre post metadata.json images/cover.jpg
 	pandoc docs/base.tex -o build/base.epub
 	ebook-meta build/base.epub -t $(title) --authors $(author) -p $(publisher) --isbn $(isbn) -d $(date)
-	ebook-polish build/base.epub build/$(title).epub -c $(cover) -p --verbose -f -u
+	xvfb-run ebook-polish build/base.epub build/$(title).epub -c $(cover) -p --verbose -f -u
 
 caps: $(wildcard docs/caps/*.tex)
 	ls docs/caps/*.tex | awk '{printf "\\input{%s}\n", $$1}' > docs/caps.tex
