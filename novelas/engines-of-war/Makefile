@@ -40,7 +40,7 @@ titlepage: cover
 	printf "%s\n" "\vspace{4cm} " >> docs/titlepage.tex
 	printf "%s\n" "{\Large\bfseries $(author)}\\\\[5pt] " >> docs/titlepage.tex
 	printf "%s\n" "\vspace{3cm} " >> docs/titlepage.tex
-	printf "%s\n" "{\scalebox{2}{\Huge\bfseries $(title)}}\\\\ " >> docs/titlepage.tex
+	printf "%s\n" "{\scalebox{2}{\Large\bfseries $(title)}}\\\\ " >> docs/titlepage.tex
 	printf "%s\n" "\vspace{0.8cm} " >> docs/titlepage.tex
 	printf "%s\n" "% ---------------    EDITORIAL      ---------------- " >> docs/titlepage.tex
 	printf "%s\n" "\vfill " >> docs/titlepage.tex
