@@ -1,7 +1,7 @@
 # Audiowho Novelas
 
 Este repositorio contiene las fuentes que se han usado en Audiowho para el montaje
-de las novelas que hemos traducido en Audiowho.
+de las novelas que hemos traducido.
 
 La traduccón la realizan nuestros traductores y en este repositorio puedes
 encontrar los documentos en LaTeX que usamos para su montaje en ePub y PDF.
@@ -10,7 +10,7 @@ encontrar los documentos en LaTeX que usamos para su montaje en ePub y PDF.
 
 ### Requisitos
 
-En primer lugar para poder generarlas debemos tener instalados los siguiente paquetes:
+Los siguientes requisitos son para un equipo con Ubuntu 14.04 instalado. En primer lugar para poder generarlas debemos tener instalados los siguiente paquetes:
 
 - imagemagick (Para las portadas)
 - jq (Para parsear ls metadatos)
