@@ -23,10 +23,7 @@ Los siguientes requisitos son para un equipo con Ubuntu 14.04 instalado. En prim
 
 Para Ubuntu 14.04 puedes ejecutar el comando:
 
-```
-apt-get install imagemagick jq texlive-latex-base texlive-latex-recommended 
-texlive-fonts-recommended texlive-lang-spanish pandoc calibre
-```
+> apt-get install imagemagick jq texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-lang-spanish pandoc calibre
 
 ### Generación de novelas
 
