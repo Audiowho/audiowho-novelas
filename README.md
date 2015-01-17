@@ -28,19 +28,19 @@ Para Ubuntu 14.04 puedes ejecutar el comando:
 ### Generación de novelas
 
 #### PDF y ePub
-```
-make
+El nuevo sistema para construir novelas se basa en un script en bash. Para poder ejecutar el script es necesario darle permisos de escritura:
+
+```bash
+chmod +x build.sh
 ```
 
-#### PDF
+Y para ejecutarlo bastará con ejecutar:
+
 ```
-make pdf
+./build.sh
 ```
 
-#### ePub
-```
-make epub
-```
+Se preguntará la novela que se desea construir y una vez realizado el proceso se podrá encontrar la novela en el directorio `build`.
 
 ---
 
