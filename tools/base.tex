@@ -1,0 +1,80 @@
+\documentclass[10pt,twoside,openright,a5paper]{book}
+
+\usepackage[a5paper]{geometry}
+
+\usepackage{times}
+%\usepackage[Lenny]{fncychap}
+%\usepackage[Conny]{fncychap}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{hyperref}
+\usepackage{pdfpages}
+
+\usepackage[svgnames]{xcolor} % Required to specify font color
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
+\newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
+
+\newcommand*{\titleBC}{\cleardoublepage\begingroup % Create the command for including the title page in the document
+
+\centering % Center all text
+
+\def\CP{\textit{\Huge %%TITLE%%}} % Title
+
+\settowidth{\unitlength}{\CP} % Set the width of the curly brackets to the width of the title
+{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
+\textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
+{\color{RosyBrown}\Large %%AUTHOR%%} \\ % Print Author
+{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
+
+\vfill
+
+\includegraphics[width=0.35\textwidth]{images/sello}
+
+\textit{Traducido por AudioWho}
+
+\vfill % Whitespace between the title and the author name
+
+{\Large\textbf{%%PUBLISHER%%}}\\ % Publisher
+
+\mbox{}
+
+%%DATE%%
+
+\endgroup}
+
+\begin{document}
+
+\newgeometry{margin=2cm}
+\begin{titlepage}
+\pagestyle{empty}
+\includepdf{images/cover.pdf}
+\titleBC % This command includes the title page
+\end{titlepage}
+
+\restoregeometry
+
+\pagestyle{plain}
+
+
+% Notas de traducción
+\input{pre.tex}
+
+\tableofcontents
+
+% Capítulos
+\input{caps.tex}
+
+% Notas de traducción
+\input{post.tex}
+
+\end{document}

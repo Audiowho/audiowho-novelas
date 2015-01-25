@@ -1,16 +1,60 @@
 # Audiowho Novelas
 
-Este repositorio contiene las fuentes que se han usado en Audiowho para el montaje
-de las novelas que hemos traducido.
+Este repositorio contiene el script `audiowho-build.sh` para generar las novelas de Audiowho y también las fuentes que se han usado en Audiowho para el montaje de las novelas que hemos traducido. Sólo están las novelas más recientes, que son las que han sido editadas usando el sistema de generación automática.
 
-La traduccón la realizan nuestros traductores y en este repositorio puedes
-encontrar los documentos en LaTeX que usamos para su montaje en ePub y PDF.
+Próximamente reeditaremos las antigüas para que puedan ser construidas usando el nuevo sistema.
 
-## Cómo construir novelas
+## Estructura de las novelas
 
-### Requisitos
+Las novelas se encuentran en formato LaTeX y deben tener la siguiente estructura para ser compatibles con el script:
 
-Los siguientes requisitos son para un equipo con Ubuntu 14.04 instalado. En primer lugar para poder generarlas debemos tener instalados los siguiente paquetes:
+```bash
+titulo-de-la-novela/
+├── docs
+│   ├── caps 
+│   │   ├── file01.tex
+│   │   ├── file02.tex
+│   │   ├── file03.tex
+│   │   └── ...
+│   ├── post
+│   │   ├── file01.tex
+│   │   ├── file02.tex
+│   │   ├── file03.tex
+│   │   └── ...
+│   └── pre
+│       ├── file01.tex
+│       ├── file02.tex
+│       ├── file03.tex
+│       └── ...
+├── images
+│   └── cover.jpg
+└── metadata.json
+```
+
+El archivo `metadata.json` debe tener el siguiente contenido:
+
+```json
+{
+    "title": "Título de la novela",
+    "author": "Autor de la novela",
+    "publisher": "Editorial de la novela",
+    "isbn": "ISBN de la novela",
+    "date": "Fecha en formato dd/mm/aaaa"
+}
+```
+
+El título de la novela debe ir preferentemente sin mayúsculas ni espacios. El script creará un documento final con la siguiente estructura:
+
+1. Portada con la imagen `images/cover.jpg`
+2. Página de título con los metadatos obtenidos de `metadata.json`
+3. Ficheros `.tex` dentro de la carpeta `pre`
+4. Índice de contenidos
+5. Ficheros `.tex` dentro de la carpeta `caps`
+6. Ficheros `.tex` dentro de la carpeta `post`
+
+## Requisitos
+
+Los siguientes requisitos son para un equipo con Ubuntu 14.04 instalado.
 
 - imagemagick (Para las portadas)
 - jq (Para parsear ls metadatos)
@@ -21,28 +65,36 @@ Los siguientes requisitos son para un equipo con Ubuntu 14.04 instalado. En prim
 - pandoc (Para genera el ePub)
 - calibre (Para la edición de metadatos del ePub)
 
-Para Ubuntu 14.04 puedes ejecutar el comando:
+Comando para instalar los requisitos en Ubuntu 14.04:
 
 > apt-get install imagemagick jq texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-lang-spanish pandoc calibre
 
-### Generación de novelas
+## Generación de novelas
 
-#### PDF y ePub
-```
-make
+Una vez nos hemos asegurado de que nuestra novela tiene la estructura adecuada y que tenemos instalado todos los paquetes necesarios ya podemos ejecutar el script:
+
+```bash
+Uso: ./audiowho-build.sh OPCIONES
+
+Este script se usa para generar las novelas traducidas por AudioWho.
+
+OPCIONES:
+   -h      Muestra la ayuda
+   -p      Genera un PDF
+   -e      Genera un ePub
+   -d      Directorio de la novela a construir
+   -l      Lista las novelas de un directorio
+   -a      Genera todas las novelas de un directorio
+   -v      Modo verbose
+
+Ejemplo: ./audiowho-build.sh -v -p -e -d novelas/titulo-de-la-novela
 ```
 
-#### PDF
-```
-make pdf
-```
-
-#### ePub
-```
-make epub
-```
+Si todo funciona correctamente, el script debe crear una carpeta llamada `build` en el mismo directorio en el que se encuentra . Dentro de esta carpeta creará una carpeta por cada novela con los ficheros PDF y ePub.
 
 ---
+
+# Audiowho
 
 ## ¿Qué es Audiowho?
 
