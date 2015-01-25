@@ -13,6 +13,8 @@ El sistema de generación automática de novelas se compone de los siguientes ar
   - `base.tex`: Fichero que se usa como base. Contiene el preámbulo de LaTeX, la página de título y el índice de contenidos.
   - `style.css`: Se usa como hoja de estilos para el fichero ePub.
 
+Todo lo que se encuentra en la carpeta tools se copia al directorio donde se construye la novela, por lo que si se necesita un archivo para el montaje común se puede incluir en esta carpeta. Por ejemplo, el sello de Audiowho se encuentra dentro de la carpeta `tools/images/` ya que se necesita cada vez que se construye una novela.
+
 A continuación se verá qué estructura deben tener las novelas y cómo se utiliza el script.
 
 ## Estructura de las novelas
