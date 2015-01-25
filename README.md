@@ -4,6 +4,17 @@ Este repositorio contiene el script `audiowho-build.sh` para generar las novelas
 
 Próximamente reeditaremos las antigüas para que puedan ser construidas usando el nuevo sistema.
 
+## Sistema de generación automática
+
+El sistema de generación automática de novelas se compone de los siguientes archivos:
+
+- `audiowho-build.sh`: Script que se usa para generar la novela.
+- `tools/`: Carpeta con el siguiente contenido:
+  - `base.tex`: Fichero que se usa como base. Contiene el preámbulo de LaTeX, la página de título y el índice de contenidos.
+  - `style.css`: Se usa como hoja de estilos para el fichero ePub.
+
+A continuación se verá qué estructura deben tener las novelas y cómo se utiliza el script.
+
 ## Estructura de las novelas
 
 Las novelas se encuentran en formato LaTeX y deben tener la siguiente estructura para ser compatibles con el script:
@@ -164,5 +175,15 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 - *Voyager [13/7/14]*
 - Historias de Trenzalore [25/7/14]
 - *La generación Dalek [28/8/14]*
+- **Máquinas de Guerra [2/11/14]**
 
-*Las novelas en cursiva son colaboraciones, no han sido traducidas por el equipo de Audiowho, pero puedes descargarlas de nuestra web*
+Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
+
+- [**Pack de novelas**](https://github.com/Bigomby/audiowho-novelas/releases)
+- [**Biblioteca de novelas**](http://www.audiowho.com/biblioteca-de-novelas/)
+
+---
+
+*Las novelas en cursiva son colaboraciones, no han sido traducidas por el equipo de Audiowho, pero puedes descargarlas de nuestra web.*
+
+*Las novelas en negrita están editadas usando el sistema de generación automática de AudioWho.*
