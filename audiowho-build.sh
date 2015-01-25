@@ -51,12 +51,12 @@ OPCIONES:
    -h      Muestra la ayuda
    -p      Genera un PDF
    -e      Genera un ePub
-   -n      Novela
+   -d      Directorio de la novela a construir
    -l      Lista las novelas de un directorio
    -a      Genera todas las novelas de un directorio
    -v      Modo verbose
 
-Ejemplo: $0 -v -p -e -n the-blood-cell
+Ejemplo: $0 -v -p -e -d novelas/titulo-de-la-novela
 EOF
 
 }
@@ -301,7 +301,7 @@ generate()
 	echo 
 }
 
-while getopts “hpen:vl:a:” OPTION
+while getopts “hped:vl:a:” OPTION
 do
     case $OPTION in
         h)
@@ -317,7 +317,7 @@ do
         v)
             VERBOSE=1
             ;;
-        n)
+        d)
 			NOVELAFLAG=true 
 			NOVELA=$OPTARG
 			;;
