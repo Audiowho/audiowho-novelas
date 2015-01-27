@@ -1,5 +1,9 @@
 # Audiowho Novelas
 
+<p align="center">
+  <img width="25%" src="https://raw.githubusercontent.com/Bigomby/audiowho-novelas/master/tools/images/sello.png"/>
+</p>
+
 Este repositorio contiene el script `audiowho-build.sh` para generar las novelas de Audiowho y también las fuentes que se han usado en Audiowho para el montaje de las novelas que hemos traducido. Sólo están las novelas más recientes, que son las que han sido editadas usando el sistema de generación automática.
 
 Próximamente reeditaremos las antigüas para que puedan ser construidas usando el nuevo sistema.
@@ -109,6 +113,10 @@ Si todo funciona correctamente, el script debe crear una carpeta llamada `build`
 ---
 
 # Audiowho
+
+<p align="center">
+  <img src="http://www.audiowho.com/wp-content/uploads/2013/07/cabecera3.png"/>
+</p>
 
 ## ¿Qué es Audiowho?
 
