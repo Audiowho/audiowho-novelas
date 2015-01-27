@@ -97,7 +97,7 @@ pdf()
 
 epub()
 {
-	cp tools/style.css $BUILD/
+	cp include/style.css $BUILD/
 
 	echo -e "\e[1mGenerando ePub...\e[0m"
 	(cd $BUILD ; pandoc base.tex -o base.epub)
@@ -182,10 +182,10 @@ check()
 			echo -e "\e[91mError al intentar leer los datos de la carpeta $NOVELA.\e[0m"
 	fi
 
-	cp -r tools/* $BUILD
+	cp -r include/* $BUILD
 	if [ $? -eq 1 ]
 		then
-			echo -e "\e[91mError al intentar leer los datos de la carpeta \"tools\".\e[0m"
+			echo -e "\e[91mError al intentar leer los datos de la carpeta \"include\".\e[0m"
 	fi
 }
 
