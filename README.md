@@ -1,7 +1,7 @@
 # Audiowho Novelas
 
 <p align="center">
-  <img width="25%" src="https://raw.githubusercontent.com/Bigomby/audiowho-novelas/master/tools/images/sello.png"/>
+  <img width="25%" src="https://raw.githubusercontent.com/Bigomby/audiowho-novelas/master/include/images/sello.png"/>
 </p>
 
 Este repositorio contiene el script `audiowho-build.sh` para generar las novelas de Audiowho y también las fuentes que se han usado en Audiowho para el montaje de las novelas que hemos traducido. Sólo están las novelas más recientes, que son las que han sido editadas usando el sistema de generación automática.
