@@ -187,6 +187,12 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 - Historias de Trenzalore [25/7/14]
 - *La generación Dalek [28/8/14]*
 - **Máquinas de Guerra [2/11/14]**
+- **11 Doctores 11 Historias: Una Gran Mano para El Doctor**
+- **11 Doctores 11 Historias: La Ciudad sin Nombre**
+- **11 Doctores 11 Historias: La Lanza del Destino**
+- **11 Doctores 11 Historias: Las Raíces del Mal**
+- **11 Doctores 11 Historias: En la Punta de la Lengua**
+- **11 Doctores 11 Historias: Algo Prestado**
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
