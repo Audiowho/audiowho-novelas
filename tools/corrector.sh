@@ -78,9 +78,11 @@ breaklines()
 dashs()
 {
 	# Arregla los carácteres erróneos
-	perl -p -i -e 's/---/-/g' $TEMP
-	perl -p -i -e 's/-{1,2}/---/g' $TEMP
-	perl -p -i -e 's/—/---/g' $TEMP
+	perl -p -i -e 's/---/|/g' $TEMP
+	perl -p -i -e 's/--/|/g' $TEMP
+	perl -p -i -e 's/—/|/g' $TEMP
+
+	perl -p -i -e 's/\|/---/g' $TEMP
 
 	# Arregla cuando la primera raya va precedida de un espacio
 	if [ "$MARK" = true ]; then
