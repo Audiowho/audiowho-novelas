@@ -62,7 +62,7 @@ EOF
 header()
 {
 	read -r FIRSTLINE<$TEMP
-	sed -i "1s/.*/\\\chapter{$FIRSTLINE}\n/" $TEMP
+	sed -i "1s/.*/\\\chapter*{$FIRSTLINE}\n\\\addcontentsline{toc}{chapter}{$FIRSTLINE}\n/" $TEMP
 }
 
 # Corrige los saltos de línea innecesarios
@@ -74,20 +74,15 @@ breaklines()
 	perl -00p -i -e 's/\n(?=.)/ /g' $TEMP
 }
 
-# Corrige la longitud de la raya de diálogo
-dashlong()
-{
-	perl -p -i -e 's/-{1,2}/---/g' $TEMP
-	perl -p -i -e 's/–/---/g' $TEMP
-}
-
 # Corrige la posición de la raya de diálogo
 dashs()
 {
 	# Arregla los carácteres erróneos
-	perl -p -i -e 's/---/-/g' $TEMP
-	perl -p -i -e 's/-{1,2}/---/g' $TEMP
-	perl -p -i -e 's/—/---/g' $TEMP
+	perl -p -i -e 's/---/|/g' $TEMP
+	perl -p -i -e 's/--/|/g' $TEMP
+	perl -p -i -e 's/—/|/g' $TEMP
+
+	perl -p -i -e 's/\|/---/g' $TEMP
 
 	# Arregla cuando la primera raya va precedida de un espacio
 	if [ "$MARK" = true ]; then
