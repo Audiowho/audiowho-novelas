@@ -184,15 +184,16 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 - El recuerdo de los Daleks [2/5/14]
 - *La marca de Rani [25/6/14]*
 - *Voyager [13/7/14]*
-- Historias de Trenzalore [25/7/14]
-- *La generación Dalek [28/8/14]*
-- **Máquinas de Guerra [2/11/14]**
+- **[Historias de Trenzalore]** \[25/7/14\]
+- *La generación Dalek [28/8/14]* 
+- **[Máquinas de Guerra]** \[2/11/14\]
 - **11 Doctores 11 Historias: Una Gran Mano para El Doctor**
 - **11 Doctores 11 Historias: La Ciudad sin Nombre**
 - **11 Doctores 11 Historias: La Lanza del Destino**
 - **11 Doctores 11 Historias: Las Raíces del Mal**
 - **11 Doctores 11 Historias: En la Punta de la Lengua**
 - **11 Doctores 11 Historias: Algo Prestado**
+- **The Blood Cell**
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
@@ -204,3 +205,7 @@ Puedes descargar el pack de novelas con todas las novelas generadas mediante el 
 *Las novelas en cursiva son colaboraciones, no han sido traducidas por el equipo de Audiowho, pero puedes descargarlas de nuestra web.*
 
 *Las novelas en negrita están editadas usando el sistema de generación automática de AudioWho.*
+
+
+[Máquinas de Guerra]:http://www.audiowho.com/2014/11/maquinas-de-guerra/
+[Historias de Trenzalore]:http://www.audiowho.com/2014/07/historias-de-trenzalore/
