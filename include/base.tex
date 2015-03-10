@@ -31,7 +31,8 @@
 
 \def\CP{\textit{\Huge %%TITLE%%}} % Title
 
-\settowidth{\unitlength}{\CP} % Set the width of the curly brackets to the width of the title
+\setlength{\unitlength}{300pt} % Set the width of the curly brackets to the width of the title
+%\addtolength{\unitlength}{-10pt}
 {\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
 \textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
 {\color{RosyBrown}\Large %%AUTHOR%%} \\ % Print Author

@@ -193,6 +193,12 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 - **11 Doctores 11 Historias: Las Raíces del Mal**
 - **11 Doctores 11 Historias: En la Punta de la Lengua**
 - **11 Doctores 11 Historias: Algo Prestado**
+- **11 Doctores 11 Historias: El Efecto Dominó**
+- **11 Doctores 11 Historias: Espora**
+- **11 Doctores 11 Historias: La Bestia de Babilionia**
+- **11 Doctores 11 Historias: El Misterio de la Cabaña Embrujada**
+- **11 Doctores 11 Historias: Nada en Punto**
+- **11 Doctores 11 Historias: Luces Apagadas**
 - **The Blood Cell**
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
