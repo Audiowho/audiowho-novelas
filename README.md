@@ -194,38 +194,29 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 
 | Novela | Fecha de publicación | Traductor | Disponible | 
 |--------|:--------------------:|-----------|:----------:| 
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
-| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| The Blood Cell |  | Audiowho | ✔ |
 
-- **11 Doctores 11 Historias: Una Gran Mano para El Doctor**
-- **11 Doctores 11 Historias: La Ciudad sin Nombre**
-- **11 Doctores 11 Historias: La Lanza del Destino**
-- **11 Doctores 11 Historias: Las Raíces del Mal**
-- **11 Doctores 11 Historias: En la Punta de la Lengua**
-- **11 Doctores 11 Historias: Algo Prestado**
-- **11 Doctores 11 Historias: El Efecto Dominó**
-- **11 Doctores 11 Historias: Espora**
-- **11 Doctores 11 Historias: La Bestia de Babilionia**
-- **11 Doctores 11 Historias: El Misterio de la Cabaña Embrujada**
-- **11 Doctores 11 Historias: Nada en Punto**
-- **11 Doctores 11 Historias: Luces Apagadas**
-- **The Blood Cell**
+#### 11 Doctores 11 Historias
+
+| Novela | Fecha de publicación | Traductor | Disponible | 
+|--------|:--------------------:|-----------|:----------:| 
+| Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| La Ciudad sin Nombre |  | Audiowho | ✔ |
+| La Lanza del Destino |  | Audiowho | ✔ |
+| Las Raíces del Mal |  | Audiowho | ✔ |
+| En la Punta de la Lengua |  | Audiowho | ✔ |
+| Algo Prestado |  | Audiowho | ✔ |
+| El Efecto Dominó |  | Audiowho | ✔ |
+| Espora |  | Audiowho | ✔ |
+| La Bestia de Babilionia |  | Audiowho | ✔ |
+| El Misterio de la Cabaña Embrujada |  | Audiowho | ✔ |
+| Nada en Punto |  | Audiowho | ✔ |
+| Luces Apagadas |  | Audiowho | ✔ |
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
 - [**Pack de novelas**](https://github.com/Bigomby/audiowho-novelas/releases)
 - [**Biblioteca de novelas**](http://www.audiowho.com/biblioteca-de-novelas/)
-
----
-
-*Las novelas en cursiva son colaboraciones, no han sido traducidas por el equipo de Audiowho, pero puedes descargarlas de nuestra web.*
-
-*Las novelas en negrita están editadas usando el sistema de generación automática de AudioWho.*
 
 
 [Máquinas de Guerra]:http://www.audiowho.com/2014/11/maquinas-de-guerra/
