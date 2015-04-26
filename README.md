@@ -176,17 +176,32 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 
 ### 2014
 
-- *Los días contados [23/4/14]*
-- *El Décimo Planeta [5/4/14]*
-- *Las Garras de Weng-Chiang [5/4/14]*
-- *Los Juegos de Guerra [5/4/14]*
-- *Los embajadores de la muerte [1/5/14]*
-- El recuerdo de los Daleks [2/5/14]
-- *La marca de Rani [25/6/14]*
-- *Voyager [13/7/14]*
-- **[Historias de Trenzalore]** \[25/7/14\]
-- *La generación Dalek [28/8/14]* 
-- **[Máquinas de Guerra]** \[2/11/14\]
+| Novela | Fecha de publicación | Traductor | Disponible | 
+|--------|:--------------------:|-----------|:----------:| 
+| Los días contados | 23/04/14   | Colaboración | ✘ | 
+| El Décimo Planeta | 05/04/14    | Colaboración | ✘ |
+| Las Garras de Weng-Chiang | 05/04/14 | Colaboración | ✘ |
+| Los Juegos de Guerra | 05/04/14 | Colaboración | ✘ | 
+| Los embajadores de la muerte | 01/05/14 | Colaboración | ✘ |
+| El recuerdo de los Daleks | 02/05/14 | Audiowho | ✘ |
+| La marca de Rani | 25/06/14 | Colaboración | ✘ |
+| Voyager | 13/07/14 | Colaboración | ✘ |
+| Historias de Trenzalore | 25/07/14 | Audiowho | ✔ |
+| La generación Dalek | 28/08/14 | Colaboración | ✘ |
+| Máquinas de Guerra | 02/11/14 | Audiowho | ✔ |
+
+### 2015
+
+| Novela | Fecha de publicación | Traductor | Disponible | 
+|--------|:--------------------:|-----------|:----------:| 
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| 11 Doctores 11 Historias: Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+
 - **11 Doctores 11 Historias: Una Gran Mano para El Doctor**
 - **11 Doctores 11 Historias: La Ciudad sin Nombre**
 - **11 Doctores 11 Historias: La Lanza del Destino**
