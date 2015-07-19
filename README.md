@@ -29,7 +29,7 @@ Las novelas se encuentran en formato LaTeX y deben tener la siguiente estructura
 ```bash
 titulo-de-la-novela/
 ├── docs
-│   ├── caps 
+│   ├── caps
 │   │   ├── file01.tex
 │   │   ├── file02.tex
 │   │   ├── file03.tex
@@ -151,66 +151,75 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 
 ### 2012
 
-- Niña de otro Mundo [15/3/12]
-- Naturaleza Humana [3/4/12]
-- Los Ocho Doctores [15/5/12]
-- La Trampa del Doctor [1/9/12]
-- Shada [23/11/12]
+| Novela                | Fecha de publicación  | Traductor     | Disponible  |
+|-----------------------|:---------------------:|:-------------:|:-----------:|
+| Niña de otro Mundo    | 15/03/12              | Audiowho      | ✘           |
+| Naturaleza Humana     | 03/04/12              | Audiowho      | ✘           |
+| Los Ocho Doctores     | 15/05/12              | Audiowho      | ✘           |
+| La Trampa del Doctor  | 01/09/12              | Audiowho      | ✘           |
+| Shada                 | 23/11/12              | Audiowho      | ✘           |
 
 ### 2013
 
-- Lungbarrow [6/1/13]
-- Misión a lo Desconocido [23/1/13]
-- Sueños del Imperio [23/2/13]
-- *Horizontes oscuros [15/3/13]*
-- La Balanza de la Justicia [23/3/13]
-- Evolución [23/4/13]
-- Las Arenas del Tiempo [23/5/13]
-- La Feria de Pesadilla [23/6/13]
-- La Mutación del Tiempo [23/11/13]
-- Historia 101 [23/8/13]
-- Sólo Humano [29/11/13]
-- Diario de Cosas Imposibles [27/10/13]
-- Muertos de Invierno [14/12/13]
-- Velo de Tristeza [30/12/13]
+| Novela                      | Fecha de publicación  | Traductor     | Disponible  |
+|-----------------------------|:---------------------:|:-------------:|:-----------:|
+| Lungbarrow                  | 06/01/13              | Audiowho      | ✘           |
+| Misión a lo Desconocido     | 23/01/13              | Audiowho      | ✘           |
+| Sueños del Imperio          | 23/02/13              | Audiowho      | ✘           |
+| Horizontes oscuros          | 15/03/13              | Nerea         | ✘           |
+| La Balanza de la Justicia   | 23/03/13              | Audiowho      | ✘           |
+| Evolución                   | 23/04/13              | Audiowho      | ✘           |
+| Las Arenas del Tiempo       | 23/05/13              | Audiowho      | ✘           |
+| La Feria de Pesadilla       | 23/06/13              | Audiowho      | ✘           |
+| Historia 101                | 23/08/13              | Audiowho      | ✘           |
+| Diario de Cosas Imposibles  | 27/10/13              | Audiowho      | ✔           |
+| La Mutación del Tiempo      | 23/11/13              | Audiowho      | ✔           |
+| Sólo Humano                 | 29/11/13              | Audiowho      | ✔           |
+| Muertos de Invierno         | 14/12/13              | Audiowho      | ✔           |
+| Velo de Tristeza            | 30/12/13              | Audiowho      | ✔           |
 
 ### 2014
 
-- *Los días contados [23/4/14]*
-- *El Décimo Planeta [5/4/14]*
-- *Las Garras de Weng-Chiang [5/4/14]*
-- *Los Juegos de Guerra [5/4/14]*
-- *Los embajadores de la muerte [1/5/14]*
-- El recuerdo de los Daleks [2/5/14]
-- *La marca de Rani [25/6/14]*
-- *Voyager [13/7/14]*
-- **[Historias de Trenzalore]** \[25/7/14\]
-- *La generación Dalek [28/8/14]* 
-- **[Máquinas de Guerra]** \[2/11/14\]
-- **11 Doctores 11 Historias: Una Gran Mano para El Doctor**
-- **11 Doctores 11 Historias: La Ciudad sin Nombre**
-- **11 Doctores 11 Historias: La Lanza del Destino**
-- **11 Doctores 11 Historias: Las Raíces del Mal**
-- **11 Doctores 11 Historias: En la Punta de la Lengua**
-- **11 Doctores 11 Historias: Algo Prestado**
-- **11 Doctores 11 Historias: El Efecto Dominó**
-- **11 Doctores 11 Historias: Espora**
-- **11 Doctores 11 Historias: La Bestia de Babilionia**
-- **11 Doctores 11 Historias: El Misterio de la Cabaña Embrujada**
-- **11 Doctores 11 Historias: Nada en Punto**
-- **11 Doctores 11 Historias: Luces Apagadas**
-- **The Blood Cell**
+| Novela                      | Fecha de publicación  | Traductor     | Disponible  |
+|-----------------------------|:---------------------:|:-------------:|:-----------:|
+| Los días contados           | 23/04/14              | Nerea         | ✘           |
+| El Décimo Planeta           | 05/04/14              | Rick          | ✘           |
+| Las Garras de Weng-Chiang   | 05/04/14              | Rick          | ✘           |
+| Los Juegos de Guerra        | 05/04/14              | Rick          | ✘           |
+| Los embajadores de la muerte| 01/05/14              | Rick          | ✘           |
+| El recuerdo de los Daleks   | 02/05/14              | Audiowho      | ✘           |
+| La marca de Rani            | 25/06/14              | Rick          | ✘           |
+| Voyager                     | 13/07/14              | Rick          | ✘           |
+| Historias de Trenzalore     | 25/07/14              | Audiowho      | ✔           |
+| La generación Dalek         | 28/08/14              | Colaboración  | ✘           |
+| Máquinas de Guerra          | 02/11/14              | Nerea         | ✔           |
+| Una Gran Mano para El Doctor| 02/11/14              | Audiowho      | ✔           |
+
+### 2015
+
+| Novela                              | Fecha de publicación  | Traductor     | Disponible   |
+|-------------------------------------|:---------------------:|:-------------:|:------------:|
+| The Blood Cell                      | 31/01/15              | Audiowho      | ✔            |
+| La Ciudad sin Nombre                | 27/02/15              | Audiowho      | ✔            |
+| La Lanza del Destino                | 27/02/15              | Audiowho      | ✔            |
+| Las Raíces del Mal                  | 28/02/15              | Audiowho      | ✔            |
+| En la Punta de la Lengua            | 28/02/15              | Audiowho      | ✔            |
+| Algo Prestado                       | 28/02/15              | Audiowho      | ✔            |
+| El Efecto Dominó                    | 10/03/15              | Audiowho      | ✔            |
+| Espora                              | 10/03/15              | Audiowho      | ✔            |
+| La Bestia de Babilionia             | 10/03/15              | Audiowho      | ✔            |
+| El Misterio de la Cabaña Embrujada  | 10/03/15              | Audiowho      | ✔            |
+| Nada en Punto                       | 10/03/15              | Audiowho      | ✔            |
+| Luces Apagadas                      | 10/03/15              | Audiowho      | ✔            |
+| La Rose de piedra                   | 19/07/15              | Dani Lestrange| ✔            |
+| Hermoso Caos                        | 19/07/15              | Audiowho      | ✔            |
+| Bell Caos (catalán)                 | 19/07/15              | Dani Lestrange| ✔            |
+| La venganza de los Judoon           | 19/07/15              | Dani Lestrange| ✔            |
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
 - [**Pack de novelas**](https://github.com/Bigomby/audiowho-novelas/releases)
 - [**Biblioteca de novelas**](http://www.audiowho.com/biblioteca-de-novelas/)
-
----
-
-*Las novelas en cursiva son colaboraciones, no han sido traducidas por el equipo de Audiowho, pero puedes descargarlas de nuestra web.*
-
-*Las novelas en negrita están editadas usando el sistema de generación automática de AudioWho.*
 
 
 [Máquinas de Guerra]:http://www.audiowho.com/2014/11/maquinas-de-guerra/
