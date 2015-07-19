@@ -212,6 +212,7 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 | Nada en Punto                       | 10/03/15              | Audiowho      | ✔            |
 | Luces Apagadas                      | 10/03/15              | Audiowho      | ✔            |
 | La Rose de piedra                   | 19/07/15              | Dani Lestrange| ✔            |
+| Soy un Dalek                        | 19/07/15              | Dani Lestrange| ✔            |
 | Hermoso Caos                        | 19/07/15              | Audiowho      | ✔            |
 | Bell Caos (catalán)                 | 19/07/15              | Dani Lestrange| ✔            |
 | La venganza de los Judoon           | 19/07/15              | Dani Lestrange| ✔            |
