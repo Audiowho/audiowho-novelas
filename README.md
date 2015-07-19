@@ -176,35 +176,47 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 
 ### 2014
 
-- *Los días contados [23/4/14]*
-- *El Décimo Planeta [5/4/14]*
-- *Las Garras de Weng-Chiang [5/4/14]*
-- *Los Juegos de Guerra [5/4/14]*
-- *Los embajadores de la muerte [1/5/14]*
-- El recuerdo de los Daleks [2/5/14]
-- *La marca de Rani [25/6/14]*
-- *Voyager [13/7/14]*
-- **[Historias de Trenzalore]** \[25/7/14\]
-- *La generación Dalek [28/8/14]* 
-- **[Máquinas de Guerra]** \[2/11/14\]
-- **11 Doctores 11 Historias: Una Gran Mano para El Doctor**
-- **11 Doctores 11 Historias: La Ciudad sin Nombre**
-- **11 Doctores 11 Historias: La Lanza del Destino**
-- **11 Doctores 11 Historias: Las Raíces del Mal**
-- **11 Doctores 11 Historias: En la Punta de la Lengua**
-- **11 Doctores 11 Historias: Algo Prestado**
-- **The Blood Cell**
+| Novela | Fecha de publicación | Traductor | Disponible | 
+|--------|:--------------------:|-----------|:----------:| 
+| Los días contados | 23/04/14   | Colaboración | ✘ | 
+| El Décimo Planeta | 05/04/14    | Colaboración | ✘ |
+| Las Garras de Weng-Chiang | 05/04/14 | Colaboración | ✘ |
+| Los Juegos de Guerra | 05/04/14 | Colaboración | ✘ | 
+| Los embajadores de la muerte | 01/05/14 | Colaboración | ✘ |
+| El recuerdo de los Daleks | 02/05/14 | Audiowho | ✘ |
+| La marca de Rani | 25/06/14 | Colaboración | ✘ |
+| Voyager | 13/07/14 | Colaboración | ✘ |
+| Historias de Trenzalore | 25/07/14 | Audiowho | ✔ |
+| La generación Dalek | 28/08/14 | Colaboración | ✘ |
+| Máquinas de Guerra | 02/11/14 | Audiowho | ✔ |
+
+### 2015
+
+| Novela | Fecha de publicación | Traductor | Disponible | 
+|--------|:--------------------:|-----------|:----------:| 
+| The Blood Cell |  | Audiowho | ✔ |
+
+#### 11 Doctores 11 Historias
+
+| Novela | Fecha de publicación | Traductor | Disponible | 
+|--------|:--------------------:|-----------|:----------:| 
+| Una Gran Mano para El Doctor |  | Audiowho | ✔ |
+| La Ciudad sin Nombre |  | Audiowho | ✔ |
+| La Lanza del Destino |  | Audiowho | ✔ |
+| Las Raíces del Mal |  | Audiowho | ✔ |
+| En la Punta de la Lengua |  | Audiowho | ✔ |
+| Algo Prestado |  | Audiowho | ✔ |
+| El Efecto Dominó |  | Audiowho | ✔ |
+| Espora |  | Audiowho | ✔ |
+| La Bestia de Babilionia |  | Audiowho | ✔ |
+| El Misterio de la Cabaña Embrujada |  | Audiowho | ✔ |
+| Nada en Punto |  | Audiowho | ✔ |
+| Luces Apagadas |  | Audiowho | ✔ |
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
 - [**Pack de novelas**](https://github.com/Bigomby/audiowho-novelas/releases)
 - [**Biblioteca de novelas**](http://www.audiowho.com/biblioteca-de-novelas/)
-
----
-
-*Las novelas en cursiva son colaboraciones, no han sido traducidas por el equipo de Audiowho, pero puedes descargarlas de nuestra web.*
-
-*Las novelas en negrita están editadas usando el sistema de generación automática de AudioWho.*
 
 
 [Máquinas de Guerra]:http://www.audiowho.com/2014/11/maquinas-de-guerra/
