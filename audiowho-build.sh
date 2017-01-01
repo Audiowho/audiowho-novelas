@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 
 # Copyright (c) 2015 Audiowho <audiowho@audiowho.com>
 
@@ -22,7 +22,7 @@
 # CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  THE
 # SOFTWARE.
 
-# Script que genera automáticamente las novelas editadas en PDF y/o 
+# Script que genera automáticamente las novelas editadas en PDF y/o
 # en ePub. Las novelas deben estar organizadas correctamente para
 # poder ser construídas.
 #
@@ -88,11 +88,11 @@ pdf()
 		rm *.aux >/dev/null
 		rm *.out >/dev/null
 		rm *.log >/dev/null
-		rm *.toc >/dev/null		
+		rm *.toc >/dev/null
 	)
 }
 
- 
+
 # Genera la novela en formato ePub
 
 epub()
@@ -132,8 +132,8 @@ epub()
 	)
 }
 
- 
-# Parsea los metadatos de la novela 
+
+# Parsea los metadatos de la novela
 
 parse()
 {
@@ -167,7 +167,7 @@ parse()
 
 check()
 {
-	
+
 	if [ ! -f $NOVELA/metadata.json ]
 		then
 			echo -e "\e[91mNo existe el fichero \"metadata.json\" para la novela o no existe la novela.\e[0m"
@@ -207,9 +207,9 @@ clean()
 
 list()
 {
-	echo 
+	echo
 	echo -e "\e[32m\e[1mNovelas disponibles:\e[0m"
-	echo 
+	echo
 	for file in $(cd $DIR ; ls -d */)
 		do
 			if [ -f $DIR/$file/metadata.json ]
@@ -220,7 +220,7 @@ list()
 	echo
 }
 
-# Genera la novela 
+# Genera la novela
 
 generate()
 {
@@ -229,14 +229,14 @@ generate()
 	check $NOVELA
 	parse
 
-	echo 
+	echo
 	echo -e "Construyendo: \e[32m\e[1m$NOVELABASENAME\e[0m"
-	echo 
+	echo
 	echo -e "\e[1mTÍTULO:\e[0m	\e[94m$title\e[0m"
 	echo -e "\e[1mAUTOR:\e[0m 	\e[94m$author\e[0m"
 	echo -e "\e[1mISBN:\e[0m 	\e[94m$isbn\e[0m"
 	echo -e "\e[1mFECHA:\e[0m 	\e[94m$date\e[0m"
-	echo 
+	echo
 
 	if [ $PDF -eq 0 ] && [ $EPUB -eq 0 ]
 		then
@@ -245,10 +245,10 @@ generate()
 	fi
 
 	# Se sustituyen los valores obtenidos en el fichero para la construcción
-	sed -i "s/%%TITLE%%/$title/g" $BUILD/base.tex 2>/dev/null
-	sed -i "s/%%AUTHOR%%/$author/g" $BUILD/base.tex 2>/dev/null
-	sed -i "s/%%PUBLISHER%%/$publisher/g" $BUILD/base.tex 2>/dev/null
-	sed -i "s:%%DATE%%:$date:g" $BUILD/base.tex 2>/dev/null
+	sed -i "s/||TITLE||/$title/g" $BUILD/base.tex 2>/dev/null
+	sed -i "s/||AUTHOR||/$author/g" $BUILD/base.tex 2>/dev/null
+	sed -i "s/||PUBLISHER||/$publisher/g" $BUILD/base.tex 2>/dev/null
+	sed -i "s:||DATE||:$date:g" $BUILD/base.tex 2>/dev/null
 
 	if [ $? -eq 1 ]
 		then
@@ -298,7 +298,7 @@ generate()
 
 	clean
 
-	echo 
+	echo
 }
 
 while getopts “hped:vl:a:” OPTION
@@ -318,7 +318,7 @@ do
             VERBOSE=1
             ;;
         d)
-			NOVELAFLAG=true 
+			NOVELAFLAG=true
 			NOVELA=$OPTARG
 			;;
 		l)
