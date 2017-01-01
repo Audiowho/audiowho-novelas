@@ -22,21 +22,18 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\newcommand*{\rotrt}[1]{\rotatebox{90}{#1}} % Command to rotate right 90 degrees
-\newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}} % Command to rotate left 90 degrees
+\newcommand*{\rotrt}[1]{\rotatebox{90}{#1}}
+\newcommand*{\rotlft}[1]{\rotatebox{-90}{#1}}
 
-\newcommand*{\titleBC}{\cleardoublepage\begingroup % Create the command for including the title page in the document
+\newcommand*{\titleBC}{\cleardoublepage\begingroup
 
-\centering % Center all text
+\centering
 
-\def\CP{\textit{\Huge %%TITLE%%}} % Title
+\def\CP{\textit{\Huge ||TITLE||}} % Title
 
-\setlength{\unitlength}{300pt} % Set the width of the curly brackets to the width of the title
-%\addtolength{\unitlength}{-10pt}
-{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotrt{$\}$}}} \\[\baselineskip] % Print top curly bracket
-\textcolor{Sienna}{\CP} \\[\baselineskip] % Print title
-{\color{RosyBrown}\Large %%AUTHOR%%} \\ % Print Author
-{\color{LightGoldenrod}\resizebox*{\unitlength}{\baselineskip}{\rotlft{$\}$}}} % Print bottom curly bracket
+\setlength{\unitlength}{300pt}
+\textcolor{Sienna}{\CP} \\[\baselineskip]
+{\color{RosyBrown}\Large ||AUTHOR||} \\
 
 \vfill
 
@@ -44,13 +41,13 @@
 
 \textit{Audiowho Novelas}
 
-\vfill % Whitespace between the title and the author name
+\vfill
 
-{\Large\textbf{%%PUBLISHER%%}}\\ % Publisher
+{\Large\textbf{||PUBLISHER||}}\\
 
 \mbox{}
 
-%%DATE%%
+||DATE||
 
 \emph{r5}
 
@@ -62,13 +59,11 @@
 \begin{titlepage}
 \pagestyle{empty}
 \includepdf{images/cover.pdf}
-\titleBC % This command includes the title page
+\titleBC{}
 \end{titlepage}
 
-\restoregeometry
-
+\restoregeometry{}
 \pagestyle{plain}
-
 
 % Notas de traducción
 \input{pre.tex}
