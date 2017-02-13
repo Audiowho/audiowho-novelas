@@ -199,7 +199,7 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 
 | Novela                              | Fecha de publicación  | Traductor     | Disponible   |
 |-------------------------------------|:---------------------:|:-------------:|:------------:|
-| The Blood Cell                      | 31/01/15              | Audiowho      | ✔            |
+| La celda sangrienta                 | 31/01/15              | Audiowho      | ✔            |
 | La Ciudad sin Nombre                | 27/02/15              | Audiowho      | ✔            |
 | La Lanza del Destino                | 27/02/15              | Audiowho      | ✔            |
 | Las Raíces del Mal                  | 28/02/15              | Audiowho      | ✔            |
@@ -216,6 +216,12 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 | Hermoso Caos                        | 19/07/15              | Audiowho      | ✔            |
 | Bell Caos (catalán)                 | 19/07/15              | Dani Lestrange| ✔            |
 | La venganza de los Judoon           | 19/07/15              | Dani Lestrange| ✔            |
+
+### 2017
+
+| Novela                              | Fecha de publicación  | Traductor     | Disponible   |
+|-------------------------------------|:---------------------:|:-------------:|:------------:|
+| El Dragón del Rey                   | 14/02/17              | Dani Lestrange| ✔            |
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
