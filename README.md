@@ -222,6 +222,8 @@ Puedes rellenar el [formulario de contacto](http://goo.gl/forms/YIw7yvfDCM).
 | Novela                              | Fecha de publicación  | Traductor     | Disponible   |
 |-------------------------------------|:---------------------:|:-------------:|:------------:|
 | El Dragón del Rey                   | 14/02/17              | Dani Lestrange| ✔            |
+| El festín de los ahogados           | 1/05/17               | Dani Lestrange| ✔            |
+| Tiempo Profundo                     | 1/05/17               | Dani Lestrange| ✔            |
 
 Puedes descargar el pack de novelas con todas las novelas generadas mediante el sistema de generación automática o ir a la biblioteca donde están publicadas **todas** todas las novelas traducidas por Audiowho hasta la fecha:
 
